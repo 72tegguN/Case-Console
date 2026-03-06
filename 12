@@ -1,0 +1,20 @@
+# Navigate to your project folder (where your HTML file is)
+cd /path/to/your/case-console-folder
+
+# Initialize git
+git init
+
+# Add your HTML file
+git add .
+
+# Create your first commit
+git commit -m "Initial commit: Case Console landing page"
+
+# Rename branch to main (if needed)
+git branch -M main
+
+# Add the remote (copy this from GitHub's instructions)
+git remote add origin https://github.com/YOUR_USERNAME/case-console.git
+
+# Push to GitHub
+git push -u origin main
